@@ -121,19 +121,22 @@ body {
     display: inline-block;
     background-color: #009900;
     color: white;
-    padding: 15px 30px;
+    padding: 8px 32px; /* Updated padding */
     text-decoration: none;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 16px;
+    border-radius: 6px; /* Updated radius */
+    font-weight: 600; /* Semibold */
+    font-size: 14px; /* Updated font size */
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 153, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 153, 0, 0.08); /* x:0, y:0, blur:8, opacity:8% */
+    border: none;
+    cursor: pointer;
+    margin-bottom: 12px;
 }
 
 .cta-button:hover {
     background-color: #006600;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 153, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 153, 0, 0.1); /* Slightly stronger shadow on hover */
 }
 
 /* Signature Styles */

@@ -263,12 +263,12 @@ body {
     margin-bottom: 20px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Reverse layout for the second card */
+/* Make this rule more specific */
 .service-card.reverse {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse !important;
 }
 
 .service-image {
@@ -284,7 +284,6 @@ body {
 .service-content {
     flex: 1;
     padding: 15px;
-    background-color: #f8fafc;
 }
 
 .service-content h4 {
